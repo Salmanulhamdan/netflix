@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color:white;
+    background: black;
+    font-family: 'Helvetica Neue',helvetica,Arial, sans-serif;
+}
+.container::before{
+    content: "";
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/862cc171-8df5-418c-886f-2aaf767ae159/2e1414e3-cdae-473f-af07-31f9b74741f6/IN-en-20230130-popsignuptwoweeks-perspective_alpha_website_large.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+.container .navbar{
+    height: 100%;
+    display: flex;
+}
+.container .navbar .left{
+    height: 100%;
+    display: flex;
+    float: left;
+}
+.container .navbar .left img{
+    height: 100px;
+    position: absolute;
+    left: 35px;
+}
+.container .navbar .right{
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+.container .navbar .right #language{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 7px 10px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.container .navbar .right .language option{
+    background-color: gray;
+}
+.container .navbar .right button{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+}
+.container .navbar .right button a{
+    text-decoration: none;
+    color: white;
+
+}
+.container .title{
+    padding: 70px 45px;
+    height: 760px;
+    align-items: center;
+    display: flex;
+    border-bottom: 6px solid gray;
+}
+.container .title .content{
+    width: 950px;
+    margin: auto;
+    padding: 6px 0;
+    text-align: center;
+   
+}
+.container .title .content h1{
+    width: 650px;
+    margin: auto;
+    font-size: 4.125rem;
+    text-align: center;
+}
+.container .title .content h2{
+    width: 650px;
+    margin: auto;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.container .title .content form h3{
+    margin: 18px;
+    font-size: 1 rem;
+    text-align: center;
+}
+.container .title .content form .email{
+    width: 1000px;
+    margin: auto;
+}
+.container .title .content form .email input{
+    height: 70px;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+}
+.container .title .content form .email button{
+    margin: auto;
+    height: 70px;
+    width: 240px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px; 
+    border: none;
+    margin-left:-4px ;
+    text-align: center;
+}
+.container .title .content form .email button:hover{
+    background-color: #f40612;
+}
+.container .title .content form .email button a{
+    text-decoration: none;
+    color: white;
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    padding: 66px;
+    /*border-top: 6px solid gray;*/
+    border-bottom: 6px solid grey;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 27px;
+}
+.first img{
+    width: 40%;
+
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+.buttons button{
+    width: 600px;
+    height: 60px;
+    background-color: #303030;
+    color: white;
+    font-size: 28px;
+    margin-left: 26%;
+    text-align: left;
+
+}
+.buttons i{
+    float: right;
+}
+.footer{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 53px;
+}
+.content1 form{
+    align-items:center;
+    text-align: center;
+}
+.content1 form h3{
+    margin: 18px;
+    font-size: 1 rem;
+    text-align: center;
+}
+.content1 form .email{
+    width: 1000px;
+    margin: auto;
+}
+.content1 form .email input{
+    height: 70px;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+}
+.content1 form .email button{
+    margin: auto;
+    height: 70px;
+    width: 240px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px; 
+    border: none;
+    margin-left: -5px;
+}
+.content1 form .email button:hover{
+    background-color: #f40612;
+}
+.content1 form .email button a{
+    text-decoration: none;
+    color: white;
+}
